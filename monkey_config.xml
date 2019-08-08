@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+    <!-- 包名-->
+    <packagename>com.xiaomi.smarthome</packagename>
+    <!-- 主activity-->
+    <mainactivity>com.xiaomi.smarthome/.SmartHomeMainActivity</mainactivity>
+    <!-- activity白名单-->
+    <whiteactivity>
+        com.xiaomi.smarthome/.SmartHomeMainActivity,
+        com.xiaomi.smarthome/.frame.plugin.runtime.activity.PluginHostActivity,
+        com.xiaomi.smarthome/.frame.plugin.runtime.activity.PluginHostActivityPlugin1,
+        com.xiaomi.smarthome/.frame.plugin.runtime.activity.PluginHostActivityPlugin2,
+        com.xiaomi.smarthome/.framework.page.scene.DeviceSceneActivityNew
+    </whiteactivity>
+    <!-- 检查时间秒 此处设置为30s轮询一次-->
+    <interval>20</interval>
+    <!-- 检查次数-->
+    <count>10000000</count>
+</config>
+
+
